@@ -1,0 +1,155 @@
+* {
+   font-family: Arial, sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --brown : rgb(78, 35, 35);
+}
+
+#contactBTN{
+    background-color: var(--brown);
+    color: white;
+}
+
+#contactBTN:hover{
+    background-color: white;
+    color: var(--brown);
+    border: 1px solid var(--brown);
+}
+
+@media(max-width:992px){
+    .nav-item i{
+        display: none;
+
+    }
+}
+
+.main{
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/580/856/913/modern-sofa-design-wallpaper-preview.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+
+#welcome{
+    color: black;
+    padding-top: 10%;
+    padding-left: 8%;
+}
+
+#welcome h4{
+    font-size: 40px;
+    font-weight: 900;
+}
+
+#welcome h1{
+    font-size: 60px;
+    font-weight: 900;
+}
+
+.bag{
+    background-color: rgba(13, 13, 13, 0.261);
+    height: 100vh;
+}
+
+@media(max-width:992px){
+    #welcome h4{
+    font-size: 30px;
+}
+
+#welcome h1{
+    font-size: 40px;
+}
+}
+
+#welcome button{
+background-color: var(--brown);
+color: white;
+}
+
+#welcome button:hover{
+    background-color: white;
+    color: var(--brown);
+    border-color: var(--brown);
+}
+
+#work{
+     background-image: url(./media/furniture-background-u3b2hul62nfs337e.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.card-title~ .viewBTN{
+    background-color: var(--brown);
+    color: white;
+}
+
+.card-title~ .viewBTN:hover{
+    border-color: var(--brown);
+    background-color: var(--brown);
+    color: white;
+}
+
+
+#about{
+    background-color: rgba(29, 131, 221, 0.564);
+    padding: 7% 0%;
+}
+
+#about h1{
+    color: var(--brown);
+    font-size: 35px;
+    font-weight: 600;
+}
+
+#hr{
+    height: 0.5em;
+    background-color: var(--brown);
+    width: 17rem;
+}
+
+#about p{
+    text-align: justify;
+}
+
+#about button{
+    border: solid var(--brown);
+    color: var(--brown);
+
+}
+
+#about button:hover{
+    border: solid white;
+    color: white;
+}
+
+.aboutimg{
+    border: 8px solid var(--brown);
+    width: 90%;
+    height: 490px;
+    padding-left: 4%;
+    padding-top: 4%;
+}
+
+.smalldiv{
+    bottom: 0;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.372);
+    width: 300px;
+    height: 40px;
+}
+
+#viewBTN{
+    color: var(--brown);
+    border: solid var(--brown);
+}
+
+#viewBTN:hover{
+    color: white;
+    background-color: var(--brown);
+}
